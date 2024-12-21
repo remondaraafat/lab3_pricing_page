@@ -1,0 +1,17 @@
+:root {
+    --main-color: #47baae; /* Change primary color to a custom color (e.g., orange) */
+}
+.navbar-nav .nav-link:hover {
+    color: var(--main-color); /* Change text color to white on hover */
+    border-top: 2px solid var(--main-color); /* Add top border on hover */
+}
+.navbar-nav .nav-link.active{
+    color: var(--main-color) !important; 
+}
+.carousel-indicators button {
+    border-radius: 100% ; /* Make them round */
+     }
+     .carousel-indicators [data-bs-target] {
+        width: 5px !important;
+        height: 5px !important; 
+     }
